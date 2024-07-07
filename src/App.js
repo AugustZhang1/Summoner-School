@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/Summoner-School'>
       <div className="App">
         <header className="header">
           <div className="header__logo">
