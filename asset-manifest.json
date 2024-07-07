@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Summoner-School/static/css/main.e3597a86.css",
+    "main.js": "/Summoner-School/static/js/main.577509e1.js",
+    "static/js/453.eb76df40.chunk.js": "/Summoner-School/static/js/453.eb76df40.chunk.js",
+    "static/media/Review-background.jpg": "/Summoner-School/static/media/Review-background.83848c618bb2f7b1d703.jpg",
+    "static/media/Coaches-background.jpg": "/Summoner-School/static/media/Coaches-background.b4c4a9f701f9cd7966cf.jpg",
+    "static/media/coaching-chart.PNG": "/Summoner-School/static/media/coaching-chart.50b9d2dbda88f720b307.PNG",
+    "static/media/why-coaching-background.jfif": "/Summoner-School/static/media/why-coaching-background.d042fea5226a8d13b4d2.jfif",
+    "static/media/background.webp": "/Summoner-School/static/media/background.ee4642a1810b47446257.webp",
+    "static/media/logo.png": "/Summoner-School/static/media/logo.b6bd415a61035b1dd3d7.png",
+    "index.html": "/Summoner-School/index.html",
+    "main.e3597a86.css.map": "/Summoner-School/static/css/main.e3597a86.css.map",
+    "main.577509e1.js.map": "/Summoner-School/static/js/main.577509e1.js.map",
+    "453.eb76df40.chunk.js.map": "/Summoner-School/static/js/453.eb76df40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3597a86.css",
+    "static/js/main.577509e1.js"
+  ]
+}
