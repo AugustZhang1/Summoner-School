@@ -1,0 +1,243 @@
+/* Existing styles */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001a66;
+  padding: 1rem;
+  position: fixed; 
+  top: 0;
+  width: 100%; 
+  z-index: 1000; 
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo img {
+  width: 50px;
+  margin-right: 0.5rem;
+}
+
+.header__logo h1 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.header__nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.hero {
+  position: relative;
+  background: url('./assets/images/background.webp') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero__title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero__description {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.button--primary {
+  background-color: #e60000;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.reviews {
+  padding: 2rem;
+  background: url('./assets/images/Review-background.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+  text-align: center;
+}
+
+.reviews__title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.reviews__list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.review {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 250px; /* Increased width */
+  height: 300px; /* Increased height */
+  color: #fff;
+}
+
+.review__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review__rating {
+  font-size: 1.5rem;
+}
+
+.review__date {
+  font-size: 0.9rem;
+}
+
+.review__content {
+  margin-top: 1rem;
+}
+
+.review__username {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.review__text {
+  font-size: 0.9rem;
+}
+
+.button--primary {
+  background-color: #e60000;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.featured-coaches {
+  padding: 2rem;
+  background: url('./assets/images/Coaches-background.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+  text-align: center;
+}
+
+.featured-coaches__title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.coaches__list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.coach {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 250px;
+  height: 400px;
+  color: #fff;
+  text-align: center;
+}
+
+.coach__image {
+  height: 100px;
+  background: #ccc; /* Placeholder for image */
+  margin-bottom: 1rem;
+}
+
+.coach__details {
+  text-align: center;
+}
+
+.coach__name {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.coach__rating {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.coach__description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.coach__price {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.why-coaching {
+  padding: 2rem;
+  background: url('./assets/images/why-coaching-background.jfif') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+}
+
+.why-coaching__title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.why-coaching__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.why-coaching__image {
+  width: 400px;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.why-coaching__description {
+  font-size: 1.25rem;
+  text-align: left;
+  max-width: 600px;
+}
