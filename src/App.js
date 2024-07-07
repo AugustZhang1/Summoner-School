@@ -1,14 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import logo from './assets/images/logo.png';
-import coachingChart from './assets/images/coaching-chart.PNG'; 
+import coachingChart from './assets/images/coaching-chart.PNG';
 import BookingForm from './BookingForm';
 import Confirm from './Confirm';
 import './App.css';
 
 function App() {
   return (
-    <Router basename='/Summoner-School'>
+    <Router>
       <div className="App">
         <header className="header">
           <div className="header__logo">
@@ -17,9 +17,9 @@ function App() {
           </div>
           <nav className="header__nav">
             <ul>
-              <li><a href="#coaching-plans">Coaching Plans</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact Us</a></li>
+              <li><Link to="/">Coaching Plans</Link></li>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/contact">Contact Us</Link></li>
             </ul>
           </nav>
         </header>
